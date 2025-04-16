@@ -1,29 +1,42 @@
-# Introduction to CSS
+/* 1. General body styling with font, margin, and padding */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
 
-## Objectives
-Link an external CSS file to an HTML document.
-Apply basic styling using selectors.
-Use colors, fonts, and spacing effectively.
+/* 2. Styling an ID selector */
+#main-heading {
+  color: #2c3e50;
+  text-align: center;
+  margin-top: 30px;
+}
 
-## Instructions
+/* 3. Styling a class selector */
+.card {
+  background-color: white;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+}
 
-Create a style.css file.
-Apply CSS to a HTML page.
-Style elements using:
-Classes and IDs.
-Color and typography.
-Margins, paddings, and borders.
+/* Styling an image */
+.image-style {
+  width: 100%;
+  max-width: 500px;
+  border: 5px solid #3498db;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto;
+}
 
->[!NOTE]
->  - Include at least:
->  - Use of 3 selectors
->  - Style an image
->  - Margin, Padding & Borders
->  - Different font
-
-# Tasks
- - Link an external CSS file.
- - Apply at least 3 different selectors.
- - Improve readability and aesthetics.
-
-Happy Coding! 💻✨
+/* Additional element selector */
+p {
+  line-height: 1.6;
+  color: #555;
+  margin: 15px 0;
+}
+✨
